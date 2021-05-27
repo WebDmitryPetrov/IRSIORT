@@ -1,0 +1,84 @@
+html,body{    
+    background: #ffffff;   
+}
+
+body {    
+    background: url(../i/dot.png) !important;
+}
+
+.top {    
+    background: url(../i/bg.jpg) 0px -200px repeat-x !important;
+}
+
+
+.main-img {
+    position: relative;
+    z-index: 2;
+    height: 200px;
+    overflow: hidden;    
+}
+.shadow {
+    position: relative;
+    top: -20px;
+    z-index: 1;    
+    margin-bottom: -20px;
+}
+
+
+.hr {
+    border-top: solid 5px #dfdfdf;
+    margin-bottom: 15px;
+}
+
+.name {
+    font: italic 28px/33px Georgia !important;
+}
+
+.name_new {
+    font: italic bold 21px/29px Georgia !important;
+    color: #be2b03;
+    color: white;
+	padding-top: 4px;
+	text-shadow: 1px 1px #382B03;
+	
+}
+
+.footer{
+    background: #2e2e2e;
+    color: #dedede;
+
+}
+
+ul, li {    
+    margin: 0 !important;
+}
+
+
+.menu li a{
+    text-decoration: none;
+}
+.menu li {
+    list-style: none;
+    border-bottom: solid 1px #dedede;
+    padding: 5px 0;
+}
+.top-menu {
+    padding-bottom: 10px;
+}
+.top-menu a {
+    color: #3e3e3e;
+    text-decoration: none;
+    margin: 3px 7px 3px 0;
+    padding: 3px 7px;
+    background: url(../i/dot.png);
+}
+
+.top-menu a:hover {
+    text-decoration: underline;
+    background: #fff;
+}
+
+li.nav-header{
+    font-weight: bold;
+    font-size: 14px;
+}

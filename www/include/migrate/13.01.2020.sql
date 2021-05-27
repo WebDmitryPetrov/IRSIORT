@@ -1,0 +1,40 @@
+ALTER TABLE fms_regions
+    ENGINE = innodb;
+ALTER TABLE fms_regions_users
+    ENGINE = innodb;
+ALTER TABLE head_center_text
+    ENGINE = innodb;
+ALTER TABLE ms_message
+    ENGINE = innodb;
+ALTER TABLE ms_message_meta
+    ENGINE = innodb;
+ALTER TABLE ms_thread
+    ENGINE = innodb;
+ALTER TABLE ms_thread_participant
+    ENGINE = innodb;
+ALTER TABLE people_additional_exam
+    ENGINE = innodb;
+ALTER TABLE regions
+    ENGINE = innodb;
+ALTER TABLE sdt_head_center
+    ENGINE = innodb;
+ALTER TABLE sdt_univer_user
+    ENGINE = innodb;
+ALTER TABLE special_prices
+    ENGINE = innodb;
+ALTER TABLE special_prices_university
+    ENGINE = innodb;
+ALTER TABLE tb_admin_hits
+    ENGINE = innodb;
+ALTER TABLE tb_groups
+    ENGINE = innodb;
+ALTER TABLE tb_relations
+    ENGINE = innodb;
+ALTER TABLE test_level_type
+    ENGINE = innodb;
+ALTER TABLE test_levels_changed_price
+    ENGINE = innodb;
+ALTER TABLE user_type
+    ENGINE = innodb;
+ALTER TABLE user_type_group_relations
+    ENGINE = innodb;

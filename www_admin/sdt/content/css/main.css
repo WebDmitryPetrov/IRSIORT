@@ -1,0 +1,219 @@
+@CHARSET "UTF-8";
+
+body {
+	padding-top: 155px;
+	padding-bottom: 40px;
+}
+
+.sidebar-nav {
+	padding: 9px 0;
+}
+
+.navbar-inner {
+	min-height: 81px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #858377;
+	background-image: -moz-linear-gradient(center top, #858377, #858377);
+	background-image: url('/sdt/content/img/bg.jpg');
+	background-repeat: no-repeat;
+	filter: '';
+	background-position: center;
+}
+
+.navbar-inverse .navbar-inner {
+	min-height: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+/*
+b ackground-color: #e6e6e6;
+	b ackground-image: -moz-linear-gradient(center top, #e7e7e7, #e7e7e7);
+	*/
+}
+
+.navbar-fixed-top,.navbar-fixed-bottom {
+	position: fixed;
+}
+
+.table td.center,.table th.center {
+	text-align: center;
+}
+
+input.scores {
+	width: 37px;
+}
+
+.marks .percent {
+	font-weight: bold;
+}
+
+.percent {
+	display: block;
+}
+
+.main_body {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background: url('/img/bg_gradient.gif') center;
+}
+
+form.form-inline.otchet label {
+	border: 1px dashed black;
+	padding: 2px;
+
+}
+.logged_as {
+color: #6c1c00;
+font-size:12pt;
+}
+
+legend {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 0;
+    border: 2px groove threedface;
+    border-bottom: none;
+    padding: 2px 0 2px 0;
+}
+fieldset{
+    border: 2px groove threedface;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.btn.btn-small{
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+
+
+.table tbody tr td {
+ /*   b ackground-color: #d6d6de; */
+}
+
+.wrap{
+    word-break:normal;
+}
+.btn.btn-mini{
+    padding: 4px;
+    margin: 0
+
+}
+
+.btn-width-medium{
+    width: 100px;
+
+
+}
+.btn-group.btn-width-medium .btn{
+    width: 110px;
+}
+
+span.certificate {
+    color: green;
+    font-weight: bold;
+}
+.modal-body .help-block, .modal-body .help-inline {
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #ffff00;
+}
+
+.button-width-50 .btn,.button-width-50{
+    width: 200px;
+}
+.sidebar-nav a {
+    font-weight: bold;
+}
+.sidebar-nav small {
+    font-weight: normal;
+/*font-size: 10px;
+    line-height: 10px;
+*/
+}
+
+
+input.filled{
+    border: 2px solid blue;
+}
+
+.float-save{
+    position: fixed;
+    top: 430px;
+    z-index: 100;
+    left: 100px;
+    height: 50px;
+}
+
+.custom-icon-upload{
+    background-image: url(../img/upload_black.png);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    line-height: 16px;
+    margin-top: 1px;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+}
+
+.custom-icon-download{
+    background-image: url(../img/download.png);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    line-height: 16px;
+    margin-top: 1px;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.mark.error{
+   border: 3px solid #FF0000
+}
+
+.btn-group
+{
+    white-space: normal;
+}
+.table-bordered{
+    border-collapse: collapse;
+}
+.man-retry{
+
+    border:  2px dashed black;
+}
+
+
+.navbar{
+    margin-bottom: 15px;
+}
+
+.div-input-large{
+    width: 210px
+}
+.div-input-large .input-large{
+    width: 184px;
+}
+
+tr.unviewed{
+    background-color: #dbdbdb;
+}
+
+.datepicker table{
+    min-width: 215px;
+}
+
+.btn.btn-color-black{
+    color:black;
+}
+.datepicker input[readonly]:not([disabled]){
+    cursor:pointer ;
+    background-color: #f7f7f7;
+}

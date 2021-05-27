@@ -1,0 +1,103 @@
+body,html {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: tahoma, sans-serif;	
+	/*background: #ffffff url(../img/bg.png);*/
+}
+
+img {
+	border: 0;
+}
+
+#center {	
+	width: 534px;
+	margin-left:-267px;
+	left:50%;
+	position: relative;
+	text-align:center;
+	z-index: 10;
+}
+
+#center2 {	
+	width: 700px;
+	margin-left:-267px;
+	left:43%;
+	position: relative;
+	text-align:center;
+	z-index: 10;
+}
+
+#head {	
+	font: bold 14px arial;
+	line-height: 60px;	
+	width: 534px;
+	height: 66px;		
+	background: url(../img/head.png) no-repeat center top;
+    	color: #fff;
+	text-decoration: none;
+}
+
+#head a{	
+	color: #fff;	
+	text-decoration: none;
+}
+
+#buttons {
+	padding-top:20%;
+	width: 310px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#buttons #small a{	
+	width: 155px;
+	height: 40px;
+	line-height: 40px;	
+	display: block;
+	float: left;
+	background: url(../img/button-small.gif) no-repeat center top;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#foot {	
+	position: absolute;
+	width: 500px;
+	margin-left:-250px;
+	left:50%;		
+	bottom: 0px;
+	width: 500px;	
+	height: 30px;	
+	text-align: center;	
+	
+}
+#foot a{	
+	color: #888;
+	font-size: 10px;
+}
+
+#left {	
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100px;
+	height: 100%;	
+	float: left;
+	background: url(../img/left.png) repeat-y left;
+}
+#right {	
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;	
+	height: 100%;
+	float: right;
+	background: url(../img/left.png) repeat-y right;
+}

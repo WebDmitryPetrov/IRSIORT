@@ -1,0 +1,79 @@
+
+ul#topmenu {
+    font-weight:        bold;
+    list-style-type:    none;
+    margin:             0;
+    padding:            0;
+	font-size:         94%;
+	text-decoration:    none;
+
+}
+ span.tab {
+	margin-top: 0.2 em;
+	margin-right: 0.2em;
+	margin-bottom: 0em;
+	margin-left: 0.2em;
+	padding-top: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom:0em;
+	padding-left: 0.2em;
+}
+
+ul#topmenu li{
+    float:              left;
+    margin:             0;
+    padding:            0;
+    vertical-align:     middle;
+ border-bottom:      1pt solid black;
+}
+
+/* default tab styles */
+.tab {
+    display:            block;
+    margin:             0.2em 0.2em 0 0.2em;
+    padding:            0.2em 0.2em 0 0.2em;
+    white-space:        nowrap;
+	background-color:   #E5E5E5;
+    border:             1pt solid #D5D5D5;
+    border-bottom:      0;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+}
+
+
+ul#topmenu li {
+
+}
+
+
+a.tab{
+text-decoration:    none;	
+color:#339933;
+padding:            0.2em 0.2em 0.2em 0.2em;}
+
+a.tab:hover,
+.tabactive,
+.tabactive:hover {
+    margin:             0;
+    padding:            0.4em 0.4em 0.2em 0.4em;
+    text-decoration:    none;
+}
+
+a.tab:hover,
+.tabactive {
+    background-color:   #F5F5F5;
+
+	
+}
+
+/* to be able to cancel the bottom border, use <li class="active"> */
+ul#topmenu li.active {
+
+     border-bottom:  1pt solid  #FFFFFF;
+	   margin:             0px;
+
+}
+li.active a{  padding:	0em 0.2em 0.1em 0.2em;
+
+
+border-bottom:  1pt solid   #F5F5F5;}

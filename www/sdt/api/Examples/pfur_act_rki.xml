@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<act contract="1285" type="1">
+    <number>15</number>
+    <testing_date>17.12.2014</testing_date>
+    <official>Тестовая Тест Т.Т.</official>
+    <responsible>Проверка П.П.</responsible>
+    <comment/>
+    <testors>
+        <testor>ФИО Тестора 1</testor>
+        <testor>ФИО Тестора 2</testor>
+    </testors>
+    <tests>
+        <test level="6">
+            <people>
+                <man citizen="13" ext_id="5123">
+                    <surname_rus>ГУРБАНОВА</surname_rus>
+                    <name_rus>ГАРАНФИЛ АЛЕКБЕР КЫЗЫ</name_rus>
+                    <surname_lat>GURBANOVA</surname_lat>
+                    <name_lat>GARANFIL</name_lat>
+                    <passport_name>паспорт</passport_name>
+                    <passport_series>P</passport_series>
+                    <passport>3907897</passport>
+                    <passport_date>16.11.2009</passport_date>
+                    <passport_department>ОВД</passport_department>
+                    <testing_date>09.12.2014</testing_date>
+                    <birth_date>12.12.1986</birth_date>
+                    <birth_place>Израиль</birth_place>
+                    <migration_card_series>122</migration_card_series>
+                    <migration_card_number>332233</migration_card_number>
+                    <doc_type>certificate</doc_type>
+                    <subtests>
+                        <subtest num="1">120</subtest>
+                        <subtest num="2">60</subtest>
+                        <subtest num="3">120</subtest>
+                        <subtest num="4">120</subtest>
+                        <subtest num="5">120</subtest>
+
+
+
+                    </subtests>
+                </man>
+
+                <man citizen="13">
+                    <surname_rus>ГУРБАНОВА</surname_rus>
+                    <name_rus>ГАРАНФИЛ АЛЕКБЕР КЫЗЫ</name_rus>
+                    <surname_lat>GURBANOVA</surname_lat>
+                    <name_lat>GARANFIL</name_lat>
+                    <passport_name>паспорт</passport_name>
+                    <passport_series>P</passport_series>
+                    <passport>3907897</passport>
+                    <passport_date>16.11.2009</passport_date>
+                    <passport_department>ОВД</passport_department>
+                    <testing_date>09.12.2014</testing_date>
+                    <birth_date>12.12.1986</birth_date>
+                    <birth_place>Израиль</birth_place>
+                    <migration_card_series>122</migration_card_series>
+                    <migration_card_number>332233</migration_card_number>
+                    <doc_type>note</doc_type>
+                    <subtests>
+                        <subtest num="1">1</subtest>
+                        <subtest num="2">60</subtest>
+                        <subtest num="3">120</subtest>
+                        <subtest num="4">120</subtest>
+                        <subtest num="5">120</subtest>
+
+
+                    </subtests>
+                </man>
+                <retry subtest_retry="1" note="А00010671"  ext_id="12313243">
+                    <testing_date>09.12.2014</testing_date>
+                    <subtests>
+                        <subtest num="1">120</subtest>
+                        <subtest num="2">60</subtest>
+                        <subtest num="3">120</subtest>
+                        <subtest num="4">120</subtest>
+                        <subtest num="5">120</subtest>
+
+
+
+                    </subtests>
+                    <doc_type>certificate</doc_type>
+                </retry>
+
+                <retry  subtest_retry="2" note="Е00002384">
+                    <testing_date>09.12.2014</testing_date>
+                    <subtests>
+                        <subtest num="1">120</subtest>
+                        <subtest num="2">60</subtest>
+                        <subtest num="3">120</subtest>
+                        <subtest num="4">120</subtest>
+                        <subtest num="5">120</subtest>
+
+
+
+                    </subtests>
+                    <doc_type>certificate</doc_type>
+                </retry>
+            </people>
+        </test>
+
+
+
+    </tests>
+</act>

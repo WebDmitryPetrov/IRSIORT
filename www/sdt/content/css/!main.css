@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+body {
+	padding-top: 200px;
+	padding-bottom: 40px;
+}
+
+.sidebar-nav {
+	padding: 9px 0;
+}
+
+.navbar .navbar-inner .container-fluid .flag {
+	padding-left: 212px;
+	padding-top: 30px;
+	position: absolute;
+}
+
+.navbar .navbar-inner .container-fluid .flag img{
+	width: 100px;
+}

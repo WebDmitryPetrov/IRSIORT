@@ -1,0 +1,174 @@
+body,html {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: tahoma, sans-serif;	
+	background: #ffffff url(../img/bg.png);
+}
+
+img {
+	border: 0;
+}
+
+#center {	
+	width: 534px;
+	margin-left:-267px;
+	left:50%;
+	position: relative;
+	text-align:center;
+	z-index: 10;
+}
+
+#center2 {	
+	width: 700px;
+	margin-left:-267px;
+	left:43%;
+	position: relative;
+	text-align:center;
+	z-index: 10;
+}
+#top {
+heig ht:60px;
+ma rgin-bottom:10px;
+}
+#head {	
+	width:100%;
+	  
+	color: #740000;    
+	font: bold 27px/50px arial;
+	text-align:center;
+	background: url('../img/metall.png');
+	text-decoration: none;
+
+	fo nt: bold 14px arial;
+	li ne-height: 60px;	
+	wi dth: 534px;
+	he ight: 66px;		
+	ba ckground: url(../img/head.png) no-repeat center top;
+    	co lor: #fff;
+	
+}
+
+#head a{	
+	color: #fff;	
+	text-decoration: none;
+}
+
+#buttons {
+	pa dding-top:20%;
+	padding-top:5%;
+	wi dth: 310px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#buttons #small a{	
+	width: 155px;
+	height: 40px;
+	line-height: 40px;	
+	display: block;
+	float: left;
+	background: url(../img/button-small.gif) no-repeat center top;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#foot {	
+	position: absolute;
+	width: 500px;
+	margin-left:-250px;
+	left:50%;		
+	bottom: 0px;
+	width: 500px;	
+	height: 30px;	
+	text-align: center;	
+	
+}
+#foot a{	
+	color: #888;
+	font-size: 10px;
+}
+
+#left {	
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100px;
+	height: 100%;	
+	float: left;
+	background: url(../img/left.png) repeat-y left;
+}
+#right {	
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;	
+	height: 100%;
+	float: right;
+	background: url(../img/left.png) repeat-y right;
+}
+#left_col {	
+	width:250px;
+	float:left;
+	text-align:center
+}
+#left_sep {	
+	background: url(../img/right.png) repeat-y;
+	width:10px;
+	height:90%;
+	position: absolute;
+	left:250px
+}
+#center_col {	
+	wi dth:60%;
+	float:left;
+	lef t:21% ;
+	position: absolute;
+	left:260px;
+	right:210px;
+	p adding-right:210px;
+}
+#right_sep {	
+	background: url(../img/right.png) repeat-y;
+	width:10px;
+	height:90%;
+	position: absolute;
+	right:200px;
+
+	wid th: 210px;
+	float:right;
+	pa dding-right:150px;
+}
+#right_col {	
+	width:200px;
+	float:right
+}
+#butto n_big {
+	width:240px;
+	text-align: center;	
+}
+
+
+#buttons #big a{	
+	w idth: 200px;
+	height: 108px;
+	li ne-height: 40px;	
+	display: block;
+	flo at: left;
+	background: url(../img/button_bg_big.png) no-repeat center top;
+	color: #6600ff;
+	text-decoration: none;
+	fo nt-size: 30px;
+	fo nt-weight: bold;
+	font: 20px/110px cambria;
+}
+#buttons #big a:hover  {	
+background: url(../img/button_bg_big-over.png) no-repeat center top;
+color: #3d0393;
+}

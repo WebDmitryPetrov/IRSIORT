@@ -1,0 +1,500 @@
+.inner_frame
+{
+height:1000px;
+height:(document.documentElement.clientHeight-200)+'px';
+height:expression((document.documentElement.clientHeight-200)+'px');
+
+
+
+}
+#apDiv1,#apDiv3,#apDiv4,#apDiv5{
+	position:absolute;
+	left:-10px;
+	top:0%;
+
+	z-index:2;
+	background-color:#FFFFFF;
+	padding:12px;
+
+font-size:16px;
+	}
+
+#apDiv2 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:1;
+	background-color: #000000;
+	opacity: .5;
+
+	filter: alpha(opacity=50);
+	width:expression(document.documentElement.clientWidth+'px');
+	height:expression(document.documentElement.clientHeight+'px');
+
+}
+#apDiv4 {
+height:600px;
+width:900px;
+	overflow: scroll;
+	}
+
+/* */
+
+.framed ,
+.framed .f_r,
+.framed .f_b,
+.framed .f_l,
+.framed .f_c
+{
+	float: left;
+	position: relative;
+	z-index: 3;
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+
+
+}
+.framed .f_tt,
+.framed .f_rr,
+.framed .f_bb,
+.framed .f_ll
+{
+display: none;
+}
+.framed {
+margin: 0 30px 15px 0;
+background: url('../images/hint-t.png') no-repeat left top;
+//background:none;
+position: absolute;
+
+}
+
+.framed .f_r
+{
+left: 30px;
+background: url('../images/hint-r.png') no-repeat right top;
+//background:none;
+}
+.framed .f_b
+{
+top: 30px;
+background: url('../images/hint-b.png') no-repeat right bottom;
+//background:none;
+}
+.framed .f_c, #apDiv1,  #apDiv3, #apDiv4
+{
+	float: none;
+	position: relative;
+	left: 15px;
+	top:-15px;
+	padding: 1 10px;
+	margin: 0 10px 0 0;
+	background: #ffffff;
+
+}
+.framed {
+left: 10%;
+top:10%;}
+
+
+.framed .f_c_2
+{
+float: none;
+width:100%;
+position: relative;
+font-size:19px;
+text-align:center;
+left: -14px; top:-17px;
+margin: 0 -28px 0 0;
+padding: 2px 0 0 0;
+background: #55fcb8;
+}
+
+.framed .f_l
+{
+left: -30px;
+padding: 15px 0;
+background: url('../images/hint-l.png') no-repeat left bottom;
+//background:none;
+}
+* html .framed .f_r,
+* html .framed .f_b,
+* html .framed .f_l
+{ height: 0; }
+* html .framed .f_tt,
+* html .framed .f_rr,
+* html .framed .f_bb,
+* html .framed .f_bb *,
+* html .framed .f_ll,
+* html .framed .f_ll *
+{
+display: block;
+position: absolute;
+left: 0; top: 0;
+}
+* html .framed .f_tt
+{
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=./images/hint-t.png,sizingMethod=crop);
+}
+* html .framed .f_rr
+{
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=./images/hint-r.png,sizingMethod=crop);
+}
+* html .framed .f_tt,
+* html .framed .f_bb
+{
+width: expression( parentNode.offsetWidth ); height: 30px;
+}
+* html .framed .f_rr,
+* html .framed .f_ll
+{
+width: 30px; height: expression( parentNode.offsetHeight );
+}
+* html .framed .f_bb,
+* html .framed .f_ll
+{
+overflow: hidden;
+}
+* html .framed .f_bb *
+{
+width: 3000px; height: 30px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=./images/hint-b.png,sizingMethod=crop);
+}
+* html .framed .f_ll *
+{
+width: 30px; height: 3000px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=./images/hint-l.png,sizingMethod=crop);
+}
+ /* ?????????? ???????????? ?????? ??????? ??? "???????? ??????" */
+* html .framed .f_rr,
+* html .framed .f_bb *
+{ right: expression( this.parentNode.offsetWidth % 2 ? -1 : 0 ); left: auto; }
+* html .framed .f_ll,
+* html .framed .f_ll *,
+* html .framed .f_bb,
+* html .framed .f_bb *
+{ bottom: expression( this.parentNode.offsetHeight % 2 ? -1 : 0 ); top: auto; }
+
+
+
+
+
+/* ThemeOfficeMenu Style Sheet */
+
+.ThemeOfficeMenu,.ThemeOfficeSubMenuTable
+{
+	font-family:	arial, verdana, sans-serif;
+	font-size:	13px;
+	padding:	0;
+	white-space:	nowrap;
+	cursor:		default;
+	height: 25px;
+}
+
+.ThemeOfficeSubMenu
+{
+	position:	absolute;
+	visibility:	hidden;
+
+	/*
+	   Netscape/Mozilla renders borders by increasing
+	   their z-index.  The following line is necessary
+	   to cover any borders underneath
+	*/
+	z-index:	0;
+	border:		0;
+	padding:	0;
+
+	overflow:	visible;
+	border:		1px solid #8C867B;
+
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#BDC3BD, Direction=135, Strength=4);
+}
+
+.ThemeOfficeSubMenuTable
+{
+	overflow:	visible;
+}
+
+.ThemeOfficeMainItem,.ThemeOfficeMainItemHover,.ThemeOfficeMainItemActive,
+.ThemeOfficeMenuItem,.ThemeOfficeMenuItemHover,.ThemeOfficeMenuItemActive
+{
+	border:		0;
+	cursor:		default;
+	white-space:	nowrap;
+}
+
+.ThemeOfficeMainItem
+{
+	/*background-color:	#EFEBDE;*/
+}
+
+.ThemeOfficeMainItemHover,.ThemeOfficeMainItemActive
+{
+	background-color: #F3F6FA;
+}
+
+.ThemeOfficeMenuItem
+{
+	background-color:	#F1F3F5;
+}
+
+.ThemeOfficeMenuItemHover,.ThemeOfficeMenuItemActive
+{
+	background-color: #E9F0F7;
+}
+
+
+/* horizontal main menu */
+
+.ThemeOfficeMainItem
+{
+	padding: 4px 1px 4px 1px;
+	border: 0;
+}
+
+td.ThemeOfficeMainItemHover,td.ThemeOfficeMainItemActive
+{
+	padding:	0px;
+	border-right:	1px solid #4682B4;
+	border-left:	1px solid #4682B4;
+}
+
+.ThemeOfficeMainFolderLeft,.ThemeOfficeMainItemLeft,
+.ThemeOfficeMainFolderText,.ThemeOfficeMainItemText,
+.ThemeOfficeMainFolderRight,.ThemeOfficeMainItemRight
+{
+	background-color:	inherit;
+}
+
+/* vertical main menu sub components */
+
+td.ThemeOfficeMainFolderLeft,td.ThemeOfficeMainItemLeft
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	0px;
+	padding-right:	2px;
+
+	border-top:	1px solid #4682B4;
+	border-bottom:	1px solid #4682B4;
+	border-left:	1px solid #4682B4;
+
+	background-color:	inherit;
+}
+
+td.ThemeOfficeMainFolderText,td.ThemeOfficeMainItemText
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	5px;
+	padding-right:	5px;
+
+	border-top:	1px solid #4682B4;
+	border-bottom:	1px solid #4682B4;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+td.ThemeOfficeMainFolderRight,td.ThemeOfficeMainItemRight
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	0px;
+	padding-right:	0px;
+
+	border-top:	1px solid #4682B4;
+	border-bottom:	1px solid #4682B4;
+	border-right:	1px solid #4682B4;
+
+	background-color:	inherit;
+}
+
+tr.ThemeOfficeMainItem td.ThemeOfficeMainFolderLeft,
+tr.ThemeOfficeMainItem td.ThemeOfficeMainItemLeft
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	1px;
+	padding-right:	2px;
+
+	white-space:	nowrap;
+
+	border:		0;
+	background-color:	inherit;
+}
+
+tr.ThemeOfficeMainItem td.ThemeOfficeMainFolderText,
+tr.ThemeOfficeMainItem td.ThemeOfficeMainItemText
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	5px;
+	padding-right:	5px;
+
+	border:		0;
+	background-color:	inherit;
+}
+
+tr.ThemeOfficeMainItem td.ThemeOfficeMainItemRight,
+tr.ThemeOfficeMainItem td.ThemeOfficeMainFolderRight
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	0px;
+	padding-right:	1px;
+
+	border:		0;
+	background-color:	inherit;
+}
+
+/* sub menu sub components */
+
+.ThemeOfficeMenuFolderLeft,.ThemeOfficeMenuItemLeft
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	1px;
+	padding-right:	3px;
+
+	border-top:	1px solid #4682B4;
+	border-bottom:	1px solid #4682B4;
+	border-left:	1px solid #4682B4;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemeOfficeMenuFolderText,.ThemeOfficeMenuItemText
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	5px;
+	padding-right:	5px;
+
+	border-top:	1px solid #4682B4;
+	border-bottom:	1px solid #4682B4;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemeOfficeMenuFolderRight,.ThemeOfficeMenuItemRight
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	0px;
+	padding-right:	0px;
+
+	border-top:	1px solid #4682B4;
+	border-bottom:	1px solid #4682B4;
+	border-right:	1px solid #4682B4;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemeOfficeMenuItem .ThemeOfficeMenuFolderLeft,
+.ThemeOfficeMenuItem .ThemeOfficeMenuItemLeft
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	2px;
+	padding-right:	3px;
+
+	white-space:	nowrap;
+
+	border: 	0px;
+	background-color:	#DDE1E6;
+}
+
+.ThemeOfficeMenuItem .ThemeOfficeMenuFolderText,
+.ThemeOfficeMenuItem .ThemeOfficeMenuItemText
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	5px;
+	padding-right:	5px;
+
+	border:		0px;
+	background-color:	inherit;
+}
+
+.ThemeOfficeMenuItem .ThemeOfficeMenuFolderRight,
+.ThemeOfficeMenuItem .ThemeOfficeMenuItemRight
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	0px;
+	padding-right:	1px;
+
+	border:		0;
+	background-color:	inherit;
+}
+
+/* menu splits */
+
+.ThemeOfficeMenuSplit
+{
+	margin:		2px;
+	height:		1px;
+	overflow:	hidden;
+	background-color:	inherit;
+	border-top:	1px solid #C6C3BD;
+}
+
+/* image shadow animation */
+
+/*
+	seq1:	image for normal
+	seq2:	image for hover and active
+
+	To use, in the icon field, input the following:
+	<img class="seq1" src="normal.gif" /><img class="seq2" src="hover.gif" />
+*/
+
+.ThemeOfficeMenuItem img.seq1
+{
+	display:	inline;
+}
+
+.ThemeOfficeMenuItemHover seq2,
+.ThemeOfficeMenuItemActive seq2
+{
+	display:	inline;
+}
+
+.ThemeOfficeMenuItem .seq2,
+.ThemeOfficeMenuItemHover .seq1,
+.ThemeOfficeMenuItemActive .seq1
+{
+	display:	none;
+}
+
+
+/* inactive settings */
+div.inactive td.ThemeOfficeMainItemHover, div.inactive td.ThemeOfficeMainItemActive
+{
+	border-top: 0px;
+	border-right:	1px solid #f1f3f5;
+	border-left:	1px solid #f1f3f5;
+}
+
+div.inactive .ThemeOfficeMainItem {
+	color: #bbb;
+
+}
+
+div.inactive span.ThemeOfficeMainItemText {
+	color: #aaa;
+}
+
+div.inactive .ThemeOfficeMainItemHover, div.inactive .ThemeOfficeMainItemActive
+{
+	background-color:	#f1f3f5;
+}

@@ -1,0 +1,6 @@
+Options -Indexes
+<Files ./composer*>
+Order Allow,Deny
+Deny from all
+</Files>
+

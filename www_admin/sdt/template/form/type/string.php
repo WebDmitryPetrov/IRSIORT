@@ -1,0 +1,1 @@
+<input class="input-xxlarge" type="text" name="<?php echo $field; ?>" id="<?php echo $field; ?>" value="<?php echo htmlspecialchars($object->$field,ENT_QUOTES)?>">

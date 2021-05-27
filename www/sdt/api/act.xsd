@@ -1,0 +1,108 @@
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+    <xs:element name="act">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="number"/>
+                <xs:element name="testing_date" type="xs:string"/>
+                <xs:element name="official" type="xs:string"/>
+                <xs:element name="responsible" type="xs:string"/>
+                <xs:element name="comment" type="xs:string"/>
+                <xs:element name="testors">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="testor" type="xs:string" minOccurs="2" maxOccurs="2"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="tests">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="test" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="people">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="man" minOccurs="1" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:all>
+                                                                <xs:element name="surname_rus" type="xs:string"/>
+                                                                <xs:element name="name_rus" type="xs:string"/>
+                                                                <xs:element name="surname_lat" type="xs:string"/>
+                                                                <xs:element name="name_lat" type="xs:string"/>
+                                                                <xs:element name="passport_name" type="xs:string"/>
+                                                                <xs:element name="passport_series" type="xs:string"/>
+                                                                <xs:element name="passport" type="xs:string"/>
+                                                                <xs:element name="passport_date" type="xs:string"/>
+                                                                <xs:element name="passport_department"
+                                                                            type="xs:string"/>
+                                                                <xs:element name="testing_date" type="xs:string"/>
+                                                                <xs:element name="birth_date" type="xs:string"/>
+                                                                <xs:element name="birth_place" type="xs:string"/>
+
+                                                                <xs:element name="doc_type" type="xs:string"/>
+
+                                                                <xs:element name="migration_card_series"
+                                                                            type="xs:string"/>
+                                                                <xs:element name="migration_card_number"
+                                                                            type="xs:string"/>
+
+                                                                <xs:element name="certificate_register_number"
+                                                                            type="xs:string" minOccurs="0"/>
+
+                                                                <xs:element name="certificate_blank_number"
+                                                                            type="xs:string" />
+
+                                                                <xs:element name="certificate_blank_date"
+                                                                            minOccurs="0"
+                                                                            type="xs:string" />
+
+                                                                <xs:element name="certificate_old_blank_number"
+                                                                            type="xs:string" minOccurs="0"/>
+
+
+                                                                <xs:element name="subtests">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="subtest" minOccurs="1"
+                                                                                        maxOccurs="unbounded">
+                                                                                <xs:complexType>
+                                                                                    <xs:simpleContent>
+                                                                                        <xs:extension base="xs:integer">
+                                                                                            <xs:attribute name="num"
+                                                                                                          type="xs:integer"
+                                                                                                          use="required"/>
+                                                                                        </xs:extension>
+                                                                                    </xs:simpleContent>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:all>
+                                                            <xs:attribute name="is_retry" type="xs:integer"
+                                                                          use="required"/>
+                                                            <xs:attribute name="citizen" type="xs:integer"
+                                                                          use="required"/>
+                                                            <xs:attribute name="subtest_retry" type="xs:integer"
+                                                                          use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="level" type="xs:integer" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute name="contract" type="xs:integer" use="required"/>
+            <xs:attribute name="type" type="xs:integer" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

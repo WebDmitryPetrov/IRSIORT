@@ -1,0 +1,122 @@
+body, table, td, p {
+        font-family: tahoma, arial, sans-serif;
+        font-size: 12px;
+}
+.container {position: relative; margin: 0px; padding:0px}
+.n_data { color: #555555; font-weight: 700; background-color: #dddddd; font-family : tahoma;}
+
+h1 {
+        color: #CC3300;
+        font-size: 14px;
+        font-weight: normal;
+}
+
+.post {
+        color: #aaaaaa;
+        font-size: 10px;
+  }
+
+a {
+        text-decoration: none;
+}
+a:hover {
+        text-decoration: underline;
+}
+
+a.menuleft {
+        font-weight: bold;
+        color: #5E4817;
+        text-decoration: none;
+        line-height : 22px;
+}
+a.menuleft:link {
+        color: #5E4817;
+}
+a.menuleft:visited {
+        color: #5E4817;
+}
+a.menuleft:active {
+        color: #5E4817;
+        text-decoration: underline;
+}
+
+a.menuleft:hover {
+        color: #5E481;
+        text-decoration: underline;
+}
+
+a.menutop:link {
+        color: #a2edf6;
+}
+a.menutop {
+        font-size: 11px;
+        font-weight: normal;
+        color: #a2edf6;
+        text-decoration: none;
+}
+a.menutop:hover {
+        text-decoration: underline;
+}
+
+.whitetext {
+        color: #FFFFFF;
+        font-size: 11px;
+}
+
+
+input.text, textarea
+{
+        background : White;
+        background-color : White;
+        border-left : 1px solid #175E6C;
+        border-right : 1px solid #175E6C;
+        border-top : 1px solid #175E6C;
+        border-bottom : 1px solid #175E6C;
+
+        font-size : 11px;
+}
+
+
+
+.level1 A {
+        TEXT-DECORATION: none;  font-size: 11;
+        PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 10px;
+        PADDING-BOTTOM: 5px; PADDING-TOP: 5px;
+        BORDER-BOTTOM: #175E6C 1px solid;
+        BACKGROUND-COLOR: #017DA7;
+}
+.level1 A:link {
+        COLOR: #a2edf6
+}
+.level1 A:visited {
+        COLOR: #a2edf6
+}
+.level1 A:active {
+        COLOR: #a2edf6
+}
+.level1 A:hover {
+        COLOR: #ffffff; TEXT-DECORATION: none;  background-color: #34afca;
+}
+
+
+.level A {
+        TEXT-DECORATION: none;  font-size: 12;
+        DISPLAY: block; font-weight: bold;
+        PADDING: 5px; margin: 0; line-height: 120%;
+        BORDER-BOTTOM: #c9cabe 1px solid;
+        BACKGROUND-COLOR: #EAEBCF
+}
+.level A:link {
+        COLOR: #5E4817
+}
+.level A:visited {
+        COLOR: #5E4817
+}
+.level A:active {
+        COLOR: #5E4817
+}
+.level A:hover {
+        COLOR: #000000; TEXT-DECORATION: none;  background-color: #d9dabc;
+}
+
+
